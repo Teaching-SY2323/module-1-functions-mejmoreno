@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -16,12 +17,14 @@ int main()
 
     cout << "\n__________________\n";
 
-    cout << "= " << Add2Values(x, y);
+    cout 
+        << setprecision(1)
+        << "= " << Add2Values(x, y);
 
     return 0;
 }
 
 int Add2Values(int x, int y)
 {
-    sum = 
+    Add2Values = x+y;
 }
